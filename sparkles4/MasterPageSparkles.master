@@ -19,8 +19,8 @@
                 <ul>
                     <li><a href="Home.aspx">Home</a>
                     <li><a href="Product.aspx">Earring</a></li>
-                    <li><a href="Contactus.aspx">Contact Us</a></li>
                     <li><a href="Shoppingcart.aspx">Shopping Cart</a></li>
+                    <li><a href="Contactus.aspx">Contact Us</a></li>
                     <li><a href="Login.aspx">Login</a></li>
                 </ul>
             </nav>
@@ -40,6 +40,19 @@
 		
 			<p>Copyright &copy; 2017 SPARKLES & CO.</p>
 		
+                        <h3>Sitemap</h3>
+
+                        <nav id ="sitemap">
+                            <ul>
+                                <li><a href="Home.aspx">Home</a></li>
+                                <li><a href="Product.aspx">Earring</a></li>
+                                <li><a href="Shoppingcart.aspx">Shopping Cart</a></li>
+                                <li><a href="Contactus.aspx">Contact Us</a></li>
+                                <li><a href="Login.aspx">Login</a></li>
+                            </ul>
+
+                        </nav>
+
                         <aside id ="side">
                             <ul>
                                  <li><a href="http://validator.w3.org/check?uri=referer">Validate HTML</a></li>
