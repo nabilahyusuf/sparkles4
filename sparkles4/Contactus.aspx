@@ -22,7 +22,7 @@
     </form>
 
      <aside id ="map">
-    <img alt="Laksamana College" width="400" height="291" src="images/map.jpg"></img>
+    <img alt="Laksamana College" width="450" height="300" src="images/map.jpg"></img>
     </aside>
 
 </div>
