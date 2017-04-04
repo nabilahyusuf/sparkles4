@@ -61,6 +61,7 @@ div.container {
 
 #footer {clear:both; 
 		padding:6px; 
+        padding-left:24px;
 		background-color:#FF9999;}
 
 #footer {margin:0;
@@ -68,24 +69,11 @@ div.container {
 		color:black; 
 		font-size:18px;
 		display: block;		
-		text-align:center; }
-
-#side {
-    color:#000000;
-    font-weight: lighter;
-    text-align: right; 
-    clear:both;
-    
+		text-align:left;
+        height: 250px;
 }
 
-#side ul {
-        list-style:none;
-}
 
-#side a { 
-    text-decoration : none;
-
-}
 
 #form {
     text-align: left;
@@ -128,7 +116,7 @@ figcaption{
 	margin: 10px 20px 10px 0;
 	text-align: center;
     height: auto;
-    margin-bottom:20px;
+    
 }
 
 .button {
@@ -137,6 +125,47 @@ figcaption{
     color:#000000;
     position: initial;
     font-weight:bold;
+    
   
 
 }
+
+#sitemap {
+    float:left;
+    position:relative;
+    top: -30px;
+    left: -30px;
+    width:20%;
+}
+
+#sitemap ul{
+    list-style:none;
+}
+
+#sitemap ul li{
+    list-style:none;
+    margin-top:2px;
+}
+
+#sitemap ul li a{
+    color:black;
+    text-decoration:none;
+}
+
+#side {
+    position: relative;
+    float: right;
+    width: 20%;
+    
+}
+
+#side a  {
+    text-decoration: none;
+    color: black;
+
+}
+
+#side li{
+    list-style :none;
+}
+
