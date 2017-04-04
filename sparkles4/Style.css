@@ -1,0 +1,142 @@
+﻿body {
+    background-color:#cccccc;
+    background-image:url(images/bg.jpg);
+    font-family:'Times New Roman', Times, serif;
+    color:#000000; 
+}
+
+
+header {
+    background-color:#FF9999;
+	opacity: 0.9;
+    padding:20px;
+    margin:0 0 30px 0;	
+}
+
+header img {
+    float: none;
+    margin:0 0 10px 0;
+}
+
+div.container {
+	width: 960px;
+	margin: 200px;
+	border: 100px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#navigation  {
+    clear:both;
+}
+
+#navigation ul {
+    height:50px;
+    margin:0;
+    padding:15px 0; 
+    border-top:1px;
+    margin:10px 0 20px 25px;
+    
+}
+
+#navigation ul li {
+    list-style:none; 
+    font-weight:lighter; 
+    margin: 0 15px 0 0;
+	display: inline;
+	
+}
+#navigation ul li a {
+    width:120px;
+    padding:10px 25px 10px 25px;
+    text-transform:uppercase;
+    color:#000000;
+    font-weight:bold;
+    background-color:none;
+    margin:20px 10px 0 0;
+    text-align:center;
+    text-decoration: none;
+	
+}
+
+#footer {clear:both; 
+		padding:6px; 
+		background-color:#FF9999;}
+
+#footer {margin:0;
+		font-family:'Times New Roman'; 
+		color:black; 
+		font-size:18px;
+		display: block;		
+		text-align:center; }
+
+#side {
+    color:#000000;
+    font-weight: lighter;
+    text-align: right; 
+    clear:both;
+    
+}
+
+#side ul {
+        list-style:none;
+}
+
+#side a { 
+    text-decoration : none;
+
+}
+
+#form {
+    text-align: left;
+    color:black;
+    padding:20px;
+    width:400px;
+    float:left;
+    background-color:#ffcccc;
+    margin: 10px 30px 10px 30px;
+}
+ 
+
+#map {
+    padding:50px;
+    width:400px;
+    float:right;
+    margin: 25px 30px;
+    position :absolute;
+    top: 530px;
+    left: 640px;
+    height: 324px;
+}
+
+figure{
+    display: inline-block;
+}
+
+figcaption{
+    text-align:center;
+}
+
+#product{
+    
+    color: #000000;
+	padding: 5px;
+	width: 946px;
+	float: left;
+	background-color: #AAAAAA;
+	opacity: 0.9;
+	margin: 10px 20px 10px 0;
+	text-align: center;
+    height: auto;
+    margin-bottom:20px;
+}
+
+.button {
+    background-color:#ffcccc;
+    padding:10px 20px;
+    color:#000000;
+    position: initial;
+    font-weight:bold;
+  
+
+}

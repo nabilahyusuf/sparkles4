@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace sparkles4
 {
-    public partial class Masterpage : System.Web.UI.MasterPage
+    public partial class Shoppingcart : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
