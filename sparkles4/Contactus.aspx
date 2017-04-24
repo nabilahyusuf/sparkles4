@@ -8,9 +8,12 @@
 
 <div id ="form">
 
-    <form>
-
-        Name: <input type="text" name="Name" /> <br /><br />
+        <asp:Label ID="Name" runat="server" Text="Name : "></asp:Label>
+        
+        <asp:TextBox ID="TextBox1" runat="server" Width="242px"></asp:TextBox>
+        <br />
+        <br />
+        
         Gender: <input type="checkbox" name="male" value="Male" />Male
                 <input type="checkbox" name="female" value="Female" />Female <br /><br />
         Email: <input type="text" name="Email" /> <br /><br />
@@ -19,13 +22,14 @@
 
         <input type ="button" value="Submit" />
         <input type ="button" Value="Reset" />
-    </form>
 
-     <aside id ="map">
-    <img alt="Laksamana College" width="450" height="300" src="images/map.jpg"></img>
-    </aside>
+     <div id ="map">
+         <script src="JavaScript/Map.js"></script>
+           <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6Kiu-V12hQuqRj95FtfTBuxZ_kn_pF5s&callback=initMap" ></script>
+    </div>
 
 </div>
 
-</asp:Content>
+     </asp:Content>
+
 
