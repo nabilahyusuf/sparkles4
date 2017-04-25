@@ -5,6 +5,7 @@ function initMap() {
         zoom: 8,
         center: uluru
     });
+
     var marker = new goggle.maps.Marker({
         position: uluru,
         draggable: true,

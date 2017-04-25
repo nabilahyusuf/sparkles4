@@ -1,6 +1,6 @@
 ﻿body {
     background-color:#cccccc;
-    background-image:url('../images/bg.jpg');
+    background-image:url(images/bg.jpg);
     font-family:'Times New Roman', Times, serif;
     color:#000000; 
 }
@@ -94,10 +94,10 @@ div.container {
     width:350px;
     float:right;
     position :absolute;
-    margin-top:-30px;
+    margin-top:350px;
     left: 700px;
     height:280px;
-    top: 816px;
+    top: 70px;
 }
 
 figure{

@@ -8,22 +8,34 @@
 
 <div id ="form">
 
-        <asp:Label ID="Name" runat="server" Text="Name : "></asp:Label>
-        
-        <asp:TextBox ID="TextBox1" runat="server" Width="242px"></asp:TextBox>
+        <asp:Label runat="server" Text="Name : " ID="LblName"></asp:Label>    
+        <asp:TextBox ID="TxtName" runat="server" Width="250px"></asp:TextBox>
         <br />
         <br />
         
-        Gender: <input type="checkbox" name="male" value="Male" />Male
-                <input type="checkbox" name="female" value="Female" />Female <br /><br />
-        Email: <input type="text" name="Email" /> <br /><br />
-        Address: <textarea name ="Address" cols="35" rows="5"></textarea><br /><br />
-        Message: <textarea name ="Message" cols="35" rows="5"></textarea><br /><br />
+        <asp:Label ID="LblGender" runat="server" Text="Gender : "></asp:Label>
+        <asp:CheckBox ID="CbMale" runat="server" Text="Male" />
+        <asp:CheckBox ID="CbFemale" runat="server" Text="Female" />
+        <br />
+        <br />
 
-        <input type ="button" value="Submit" />
-        <input type ="button" Value="Reset" />
+        <asp:Label ID="LblEmail" runat="server" Text="Email : "></asp:Label>
+        <asp:TextBox ID="TxtEmail" runat="server" TextMode="Email" Width="250px"></asp:TextBox>
+        <br /><br />
 
-     <div id ="map">
+        <asp:Label ID="LblAddress" runat="server" Text="Address : "></asp:Label>
+        <asp:TextBox ID="TxtAddress" runat="server" Height="50px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+        <br /><br />
+
+        <asp:Label ID="LblMessage" runat="server" Text="Message : "></asp:Label>
+        <asp:TextBox ID="TxtMessage" runat="server" Height="100px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+        <br /><br />
+
+        <asp:Button ID="BtnSubmit" runat="server" Height="25px" Text="Submit" Width="80px" /> 
+    
+        <asp:Button ID="BtnResit" runat="server" Text="Resit" Height="25px" Width="80px" />
+    
+    <div id ="map">
          <script src="JavaScript/Map.js"></script>
            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6Kiu-V12hQuqRj95FtfTBuxZ_kn_pF5s&callback=initMap" ></script>
     </div>
