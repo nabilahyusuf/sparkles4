@@ -8,6 +8,8 @@ using System.Net.Mail;
 
 public partial class Contactus : System.Web.UI.Page
 {
+    private object TxtName;
+
     protected void Page_Load(object sender, EventArgs e)
     {
 
@@ -36,7 +38,11 @@ public partial class Contactus : System.Web.UI.Page
 
         //set the subject of the message, and set the body using the text from a text box
         msg.Subject = "A new email from the website";
-        msg.Body = TxtMessage.Text;
+        msg.Body = "Name :" + TxtName.Text + "<br/>"
+                + "Email :" + TxtEmail.Text + "<br/>"
+                + "Address :" + TxtAddress.Text + "<br/>
+                + "Message : " + TxtMessage.Text + "<br/>";
+        { 
 
         //send the message
         client.Send(msg);
@@ -44,9 +50,10 @@ public partial class Contactus : System.Web.UI.Page
         //clear the message box (a better option would be to notify the user that
         //the email has been sent - either by displaying a message (e.g. a literal)
         //or by redirecting them to a 'Message sent' page
-        TxtMessage.Text = "";
-
+        TxtMessage.Text = "Your Message has been sent.";
+        }
 
     }
 
+}
 }

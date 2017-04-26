@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6CC92673-35CE-40BA-88DD-ADC3EAE73E44}</ProjectGuid>
+    <ProjectGuid>{9EFBDABC-3CAD-4EE7-9C4C-DBD2B2DE6296}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>sparkles4</RootNamespace>
-    <AssemblyName>sparkles4</AssemblyName>
+    <RootNamespace>sparkles_4</RootNamespace>
+    <AssemblyName>sparkles_4</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -66,22 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin.aspx" />
     <Content Include="Contactus.aspx" />
-    <Content Include="default.aspx" />
-    <Content Include="JavaScript\Map.js" />
-    <Content Include="packages.config" />
-    <Content Include="MasterPageSparkles.master" />
-    <None Include="Properties\PublishProfiles\1526912.pubxml" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="admin.aspx" />
-    <Content Include="Global.asax" />
+    <Content Include="CSS\Style.css" />
+    <Content Include="Default.aspx" />
     <Content Include="images\banner.jpg" />
     <Content Include="images\bg.jpg" />
     <Content Include="images\earring-logo.png" />
@@ -92,16 +80,30 @@
     <Content Include="images\p4.jpg" />
     <Content Include="images\p5.jpg" />
     <Content Include="images\p6.jpg" />
+    <Content Include="JavaScript\Map.js" />
     <Content Include="Login.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="Masterpage.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
     <Content Include="Product.aspx" />
     <Content Include="Shoppingcart.aspx" />
-    <Content Include="CSS\Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="admin.aspx.cs">
-      <DependentUpon>admin.aspx</DependentUpon>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contactus.aspx.cs">
       <DependentUpon>Contactus.aspx</DependentUpon>
@@ -110,12 +112,12 @@
     <Compile Include="Contactus.aspx.designer.cs">
       <DependentUpon>Contactus.aspx</DependentUpon>
     </Compile>
-    <Compile Include="default.aspx.cs">
-      <DependentUpon>default.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="default.aspx.designer.cs">
-      <DependentUpon>default.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -124,13 +126,22 @@
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MasterPageSparkles.master.cs">
-      <DependentUpon>MasterPageSparkles.master</DependentUpon>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masterpage.Master.cs">
+      <DependentUpon>Masterpage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masterpage.Master.designer.cs">
+      <DependentUpon>Masterpage.Master</DependentUpon>
     </Compile>
     <Compile Include="Product.aspx.cs">
       <DependentUpon>Product.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shoppingcart.aspx.cs">
@@ -158,9 +169,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>3491</DevelopmentServerPort>
+          <DevelopmentServerPort>2287</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:3491/</IISUrl>
+          <IISUrl>http://localhost:2287/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
