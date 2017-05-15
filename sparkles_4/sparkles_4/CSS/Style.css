@@ -83,19 +83,19 @@ div.container {
     padding:20px;
     width:400px;
     float:left;
-    background-color:#ffcccc;
+    background-color:#ffcccc; 
     margin: 10px 30px 10px 30px;
 }
- 
+
 
 #map {
     padding:50px;
     width:350px;
     float:right;
     position :absolute;
-    margin-top:335px;
+    margin-top:350px;
     left: 700px;
-    height:370px;
+    height:385px;
     top: 80px;
 }
 
@@ -172,8 +172,14 @@ figcaption{
 }
 
 .textbox {
-    width: 250px;
+    width: 280px;
     height: 25px;
+    margin-left: 20px;
+}
+.textbox_1{
+    width: 280px;
+    height: 25px;
+    margin-left: 45px;
 }
 
 .message {
@@ -185,14 +191,30 @@ figcaption{
 .address {
     width: 250px;
     height: 50px;
+    text-align:justify;
 }
 
 .button{
-    height: 35px;
+    height: 40px;
     width: 150px;
     text-align: center;
    border: 1px solid;
    color: black;
 }
 
+#register{
+    text-align: left;
+    color:black;
+    padding:20px;
+    width:400px;
+    float:left;
+}
 
+#login{
+    text-align: left;
+    color:black;
+    padding:20px;
+    width:400px;
+    float:left;
+
+}

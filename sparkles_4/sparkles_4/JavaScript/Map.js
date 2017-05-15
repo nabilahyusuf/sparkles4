@@ -13,4 +13,4 @@
   });
 }
 
-/*https://developers.google.com/maps/documentation/javascript/examples/marker-simple */
+/*retrieve from https://developers.google.com/maps/documentation/javascript/examples/marker-simple */

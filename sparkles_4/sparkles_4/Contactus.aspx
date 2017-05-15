@@ -30,10 +30,10 @@
         <asp:requiredfieldvalidator runat="server" errormessage="Please Enter Your Message" controltovalidate ="TxtMessage"  Font-Bold="True" Font-Size="Small"></asp:requiredfieldvalidator>
         <br /><br />
 
-        <asp:Button ID="BtnSubmit" runat="server" Text="Submit" CssClass="button" OnClick="btnSubmit_Click"/>
+        <asp:Button ID="BtnSubmit" runat="server" Text="Submit" CssClass="button" OnClick="btnSubmit_Click"/> <br /><br />
    
-        <asp:Label ID="LblResult" runat="server" ></asp:Label>
-    
+        <asp:Label ID="LblResult" runat="server" visible="false" Font-Bold="true"></asp:Label>
+        <asp:Label ID="LblFailed" runat="server" visible="false" Font-Bold="true"></asp:Label>
     
     <div id ="map">
          <script src="JavaScript/Map.js"></script>

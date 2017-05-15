@@ -1,7 +1,6 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Masterpage.master.cs" Inherits="sparkles_4.Masterpage" %>
 
 <!DOCTYPE html>
-<html lang="en-US">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
